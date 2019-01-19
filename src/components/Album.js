@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Album = () => (
-  <section className="album">
-  All of your cool music will go here
-  </section>
-);
+ class Album extends Component {
+   render() {
+     return(
+       <section className="album">
+          {this.props.match.params.slug} All of your cool music will go here
+       </section>
+     );
+   }
+ }
+
+
 export default Album;
