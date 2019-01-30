@@ -18,8 +18,47 @@
   color: white;
 }
 
+body {
+  background-image: url('components/background.jpg');
+}
+
+.album {
+  color: #FFFFFF;
+}
+
+#cellOne {
+  background-color: #A239CA;
+  color: #FFFFFF;
+}
+
+#cellTwo {
+  background-color: #4717F6;
+  color: #FFFFFF
+}
+
+#cellThree {
+  background-color: #A239CA;
+  color: #FFFFFF;
+}
+
+.landing {
+  text-align: center;
+  background-color: #0E0B16;
+  color: #FFFFFF;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.jumbotron {
+  background-color: #0E0B16 !important;
+  color: #FFFFFF;
+}
+
+.navigation {
+  background-color: #E7DFDD;
+  color: #FFFFFF;
 }
 
 @keyframes App-logo-spin {
